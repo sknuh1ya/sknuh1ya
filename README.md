@@ -1,7 +1,5 @@
 Hello, I am Shaikh Nuhiya.
 
-🎓 Computer Science Engineering Student |  Learning Full-Stack Development | Interested in Full-Stack Development and Building Practical Projects
-
 
 👨‍💻 About me
 
