@@ -1,0 +1,26 @@
+{
+  "Visa Application": [
+    "Passport",
+    "Emirates ID",
+    "Photograph"
+  ],
+  "Residency Application": [
+    "Passport",
+    "Emirates ID",
+    "Photograph",
+    "Proof of Address"
+  ],
+  "Government Service": [
+    "Passport",
+    "Proof of Address"
+  ],
+  "Employment Application": [
+    "Passport",
+    "Educational Certificate",
+    "Photograph"
+  ],
+  "Custom Application": [
+    "Passport",
+    "Photograph"
+  ]
+}

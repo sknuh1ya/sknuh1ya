@@ -1,0 +1,111 @@
+{
+    "overall_status": "EXPIRED DOCUMENT",
+    "checklist": [
+        {
+            "Required Document": "Passport",
+            "Detected": "Yes",
+            "Status": "Expired",
+            "Details": "Document appears to be expired."
+        },
+        {
+            "Required Document": "Emirates ID",
+            "Detected": "Yes",
+            "Status": "Needs Correction",
+            "Details": "Low resolution detected."
+        },
+        {
+            "Required Document": "Photograph",
+            "Detected": "Yes",
+            "Status": "Needs Correction",
+            "Details": "Low resolution detected."
+        }
+    ],
+    "documents": [
+        {
+            "file_name": "Screenshot 2026-09-17 100042_3.png",
+            "detected_type": "Emirates ID",
+            "confidence": 99,
+            "classification_scores": {
+                "Passport": 20,
+                "Emirates ID": 99,
+                "Driving License": 0,
+                "Photograph": 30,
+                "Utility Bill": 0,
+                "Proof of Address": 4,
+                "Educational Certificate": 0,
+                "Bank Statement": 0
+            },
+            "quality_score": 75,
+            "quality_issues": [
+                "Low resolution detected."
+            ],
+            "ocr_text": "‚United Arab Emirates gra ‏دولة الإمارات العربية المتحدة‎\nー Identity Card MN La ‏بطاقة‎ —\nID Number / ‏رقم الهوية‎ 7\n784-1979-1234567-1\n‏الاسم: أحمد راشد محمد‎\nName: Ahmad Rashid Mohammed 看\n‎j‏ الجنسية: الإمارات العربية المتحدة\n‎Nationality: United Arab Emirates |",
+            "fields": {},
+            "expiry_status": "EXPIRY DATE UNCLEAR",
+            "expiry_date": null,
+            "duplicate_key": "990016da40a964281d87288cf0b5382e2d8d49fb7dc51901c5c6968453b1e31e",
+            "error": null
+        },
+        {
+            "file_name": "photograph_1.png",
+            "detected_type": "Photograph",
+            "confidence": 80,
+            "classification_scores": {
+                "Passport": 0,
+                "Emirates ID": 0,
+                "Driving License": 0,
+                "Photograph": 80,
+                "Utility Bill": 0,
+                "Proof of Address": 0,
+                "Educational Certificate": 0,
+                "Bank Statement": 0
+            },
+            "quality_score": 75,
+            "quality_issues": [
+                "Low resolution detected."
+            ],
+            "ocr_text": "",
+            "fields": {},
+            "expiry_status": "EXPIRY DATE UNCLEAR",
+            "expiry_date": null,
+            "duplicate_key": "e810b7edf27ecfb7eb67641b23b1d20f4241434f78b24a88b4ff8070ee70cd76",
+            "error": null
+        },
+        {
+            "file_name": "polish passport.png",
+            "detected_type": "Passport",
+            "confidence": 99,
+            "classification_scores": {
+                "Passport": 100,
+                "Emirates ID": 0,
+                "Driving License": 0,
+                "Photograph": 30,
+                "Utility Bill": 0,
+                "Proof of Address": 0,
+                "Educational Certificate": 0,
+                "Bank Statement": 0
+            },
+            "quality_score": 75,
+            "quality_issues": [
+                "Low resolution detected."
+            ],
+            "ocr_text": "PASSPORT § CIMEN <>, SS\nVE mac Canet J み へ ん ⑨\nー へ 親 細 い * や epee -\n이 ‏مم‎ bana |\n|) 心 ミ 10.08.1964 F\n1 榮 ノ ッ l $ ate of anpiry/Giiig Mebueeoendoi ﹍ 10 quen Sean ‏مه‎ des Pasaba |\nA a, 08.08.2018 , ド /\nL ‏م\"‎ 08 BUNDESDRUCKEREI 乙 HMéskeequiaus Y”\nP<BDRMUSTERMANN<<ERIKA<<<<<<<<<<<<<<<<<<<<<<\nCA000000<4D<<6408103F1805084<<<<<<<<<<<<<<<B",
+            "fields": {},
+            "expiry_status": "EXPIRED",
+            "expiry_date": "2018-08-08",
+            "duplicate_key": "f09b533acfb178e46922dc8d030d1dd405b5feb64880caa29be24e04a4bedb74",
+            "error": null
+        }
+    ],
+    "actions": [
+        "Provide a current Passport.",
+        "Review the Emirates ID because quality issues were detected.",
+        "Review the Photograph because quality issues were detected."
+    ],
+    "extra_documents": [],
+    "required_documents": [
+        "Passport",
+        "Emirates ID",
+        "Photograph"
+    ]
+}
